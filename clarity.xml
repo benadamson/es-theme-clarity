@@ -1,0 +1,265 @@
+<!--
+theme name:		Clarity
+version:		1.0
+author:			Ben Adamson
+website:		http://benadamson.com/
+license:			creative commons CC-BY-NC-SA
+based on:		"Carbon" by Eric Hettervik
+-->
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+	<view name="system, basic, detailed">
+
+		<image name="body_color" extra="true">
+			<path>./art/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>333333</color>
+		</image>
+
+		<image name="background" extra="true">
+			<size>0 1</size>
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<path>./art/background.jpg</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<image name="systemlist_shadow" extra="true">
+			<path>./art/shadow_up.png</path>
+			<tile>true</tile>
+			<origin>0 1</origin>
+			<pos>0 0.385</pos>
+			<size>1 0.08</size>
+		</image>
+
+		<image name="systemlist_shadow2" extra="true">
+			<path>./art/shadow_down.png</path>
+			<tile>true</tile>
+			<origin>0 0</origin>
+			<pos>0 0.615</pos>
+			<size>1 0.078</size>
+		</image>
+
+		<image name="bottom" extra="true">
+			<origin>0 1</origin>
+			<pos>0 1</pos>
+			<size>1 0.07</size>
+			<path>./art/bg_color.png</path>
+			<color>000000</color>
+		</image>
+
+		<helpsystem name="help">
+			<textColor>777777</textColor>
+			<iconColor>999999</iconColor>
+			<fontPath>./art/RobotoCondensed.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</helpsystem>
+
+	</view>
+
+    <view name="basic, detailed">
+
+    	<image name="logo">
+    		<origin>0.5 0</origin>
+    	</image>
+
+    	<!--<text name="logoText">
+    		<color>404040</color>
+    		<fontPath>./art/RobotoBlack.ttf</fontPath>
+    		<fontSize>0.05</fontSize>
+    		<lineSpacing>1.3</lineSpacing>
+    		<alignment>left</alignment>
+    		<pos>0.02 0.02</pos>
+    		<size>0.37 0</size>
+    	</text>-->
+
+    	<textlist name="gamelist">
+    		<selectorColor>ffffff22</selectorColor>
+    		<selectorColor>ffffff00</selectorColor>
+    		<selectedColor>ffffff</selectedColor>
+    		<primaryColor>9f9f9f</primaryColor>
+    		<secondaryColor>9f9f9f</secondaryColor>
+    		<!--<pos>0 0.24</pos>
+    		<size>0.382 0.665</size>-->
+    		<pos>0 0.02</pos>
+    		<size>0.382 0.9</size>
+    		<size>0.382 0.65</size>
+    		<fontPath>./art/Roboto.ttf</fontPath>
+    		<fontSize>0.038</fontSize>
+    		<alignment>left</alignment>
+    		<horizontalMargin>0.02</horizontalMargin>
+    		<scrollSound>./art/tap_vocal.wav</scrollSound>
+    	</textlist>
+
+    	<image name="gamelist_shadow" extra="true">
+    		<origin>0 0</origin>
+    		<size>0.05 1</size>
+    		<pos>0.382 0</pos>
+    		<path>./art/shadow_right.png</path>
+    		<tile>true</tile>
+    	</image>
+
+    	<image name="gamelist_bg" extra="true">
+    		<path>./art/bg_color.png</path>
+    		<origin>0 0</origin>
+    		<pos>0 0</pos>
+    		<size>0.382 1</size>
+    		<color>ffffffaa</color>
+    		<color>00000066</color>
+    	</image>
+
+    	<image name="logo_bg" extra="true">
+    		<path>./art/bg_color.png</path>
+    		<origin>0 0</origin>
+    		<pos>0 0.685</pos>
+    		<size>0.382 0.315</size>
+    		<color>00000033</color>
+    	</image>
+
+    	<image name="bottom" extra="true">
+    		<origin>0 1</origin>
+    		<pos>0 1</pos>
+    		<size>1 0.0675</size>
+    		<path>./art/bg_color.png</path>
+    		<color>000000</color>
+    	</image>
+
+    	<helpsystem name="help">
+    		<textColor>777777</textColor>
+    		<iconColor>999999</iconColor>
+    		<fontPath>./art/RobotoCondensed.ttf</fontPath>
+    		<fontSize>0.03</fontSize>
+    	</helpsystem>
+
+		<text name="md_lbl_rating, md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_players, md_playcount, md_description, md_lastplayed, md_lbl_releasedate, md_releasedate, md_lbl_genre, logoText">
+			<color>ffffff00</color>
+			<fontSize>0.03</fontSize>
+			<size>0 0</size>
+			<pos>1 1</pos>
+		</text>
+
+		<!--<text name="md_genre"> Top-right
+			<color>ffffff</color>
+			<fontPath>./art/RobotoMedium.ttf</fontPath>
+			<fontSize>0.04</fontSize>
+			<alignment>right</alignment>
+			<pos>0.775 0.039</pos>
+		</text>-->
+
+		<!--<text name="md_lbl_genre">
+			<color>777777</color>
+			<fontPath>./art/RobotoCondensed.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<alignment>right</alignment>
+			<forceUppercase>true</forceUppercase>
+			<pos>0.65 0.94</pos>
+		</text>
+
+		<text name="md_genre">
+			<color>999999</color>
+			<fontPath>./art/RobotoCondensed.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<pos>0.71 0.936</pos>
+		</text>-->
+
+		<text name="md_genre">
+			<color>777777</color>
+			<fontPath>./art/RobotoCondensed.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<alignment>center</alignment>
+			<forceUppercase>true</forceUppercase>
+			<pos>0.59 0.939</pos>
+		</text>
+
+		<!--<text name="md_lbl_releasedate">
+			<color>777777</color>
+			<fontPath>./art/RobotoCondensed.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<forceUppercase>true</forceUppercase>
+			<pos>0.615 0.941</pos>
+		</text>
+
+		<datetime name="md_releasedate">
+			<color>777777</color>
+			<fontPath>./art/RobotoCondensed.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<!--<pos>0.633 0.81</pos> Centered below artwork -->
+			<!--<pos>0.695 0.941</pos>
+		</datetime>-->
+
+		<text name="md_players">
+			<color>777777</color>
+			<fontPath>./art/RobotoCondensed.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<pos>0.882 0.941</pos>
+			<alignment>right</alignment>
+			<size>0.045 0.045</size>
+		</text>
+
+		<text name="md_lbl_players">
+			<color>777777</color>
+			<fontPath>./art/RobotoCondensed.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<alignment>left</alignment>
+			<forceUppercase>true</forceUppercase>
+			<pos>0.935 0.941</pos>
+			<text>Player</text>
+		</text>
+
+		<rating name="md_rating">
+			<!--<pos>0.857 0.039</pos> top-right corner -->
+			<size>0 0.045</size>
+			<filledPath>./art/star_full.svg</filledPath>
+			<unfilledPath>./art/star_hollow.svg</unfilledPath>
+		</rating>
+
+		<!--<image name="selectorcolor_bg" extra="true">
+			<path>./art/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0.633 0.805</pos>
+			<size>0.1 0.1</size>
+			<color>ff0000de</color>
+		</image>-->
+
+	</view>
+
+	<view name="basic">
+
+		<image name="logo2" extra="true">
+			<origin>0.5 0.5</origin>
+		</image>
+
+		<!--<image name="helper1" extra="true">
+			<path>./art/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0 0.053</pos>
+			<size>0.382 0.82</size>
+			<color>ff0000de</color>
+		</image>-->
+
+	</view>
+
+	<view name="detailed">
+
+		<image name="md_image">
+			<origin>0.5 0.5</origin>
+		</image>
+
+		<!--<image name="md_image_background" extra="true">
+			<path>./art/shadow_md_image.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.692 0.47</pos>
+			<maxSize>0.47 0.642</maxSize>
+		</image>-->
+
+	</view>
+
+</theme>
